@@ -1,0 +1,77 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+  background-color: #090b1a;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  align-items: center;
+}
+.write-up {
+  background-color: #1b1938;
+  padding: 40px 30px;
+  width: 900px;
+}
+.write-up h1 {
+  font-weight: 700;
+}
+.write-up h1 span {
+  color: #aa5cdb;
+}
+.write-up p {
+  color: #ffffffbf;
+  width: 360px;
+  padding: 20px 0;
+}
+.stats {
+  display: flex;
+}
+.stats p {
+  color: #ffffff99;
+}
+img {
+  width: 360px;
+}
+.image {
+  background: rgb(176, 174, 175);
+  background-size: cover;
+  background: linear-gradient(
+    90deg,
+    rgba(176, 174, 175, 1) 0%,
+    rgba(170, 92, 219, 1) 100%,
+    url(./images/background-img.png)
+  );
+}
